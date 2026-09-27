@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="从零到全貌理解云原生架构：容器、Kubernetes、网络、存储、微服务、可观测性、GitOps、安全、平台工程、多集群、Serverless 与 FinOps。" />
+  <title>Cloud Native Learn · 云原生架构从零到全貌</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <span class="brand-mark">☁</span>
+        <div><strong>Cloud Native Learn</strong><small>从零到全貌</small></div>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-label"><span>学习进度</span><span id="progressText">0%</span></div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+      </div>
+      <nav id="nav"></nav>
+      <div class="sidebar-footer">
+        <a href="https://github.com/WhoJave/Cloud-Native-Learn" target="_blank" rel="noreferrer">GitHub Repository ↗</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-btn" id="menuBtn" aria-label="打开目录">☰</button>
+        <div class="breadcrumbs" id="breadcrumbs">云原生架构学习地图</div>
+        <div class="top-actions">
+          <button id="themeBtn" class="ghost-btn" aria-label="切换主题">◐</button>
+        </div>
+      </header>
+
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">CLOUD NATIVE ARCHITECTURE</span>
+          <h1>从一台服务器，到完整云原生平台</h1>
+          <p>不是背 Kubernetes 名词，而是顺着一次真实请求，把计算、网络、存储、分布式系统、可观测性、交付、安全与平台工程全部串起来。</p>
+          <div class="hero-tags">
+            <span>面向开发者</span><span>体系化</span><span>生产级</span><span>案例驱动</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="mini-flow">
+            <span>Code</span><b>→</b><span>CI</span><b>→</b><span>Image</span><b>→</b><span>GitOps</span><b>→</b><span>K8s</span>
+          </div>
+          <div class="mini-grid">
+            <div><strong>Compute</strong><small>Pod / Scheduler / CRI</small></div>
+            <div><strong>Network</strong><small>CNI / Service / eBPF</small></div>
+            <div><strong>Storage</strong><small>CSI / PV / StatefulSet</small></div>
+            <div><strong>Observe</strong><small>Metrics / Logs / Traces</small></div>
+          </div>
+        </div>
+      </section>
+
+      <article class="content" id="content">
+        <div class="loading">正在加载章节…</div>
+      </article>
+
+      <footer class="footer">
+        <span>Cloud Native Learn · WhoJave</span>
+        <span>最后更新：2026-09-27</span>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
