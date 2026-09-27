@@ -10,7 +10,20 @@ const chapters=[
 ["08-security","08","云原生安全与零信任"],
 ["09-multicluster-serverless-finops","09","多集群、Serverless 与 FinOps"],
 ["10-case-study","10","案例：消费金融额度申请全链路"],
-["11-roadmap","11","学习路线与架构师检查清单"]
+["11-roadmap","11","学习路线与架构师检查清单"],
+["12-traffic-entry-deep-dive","12","深潜：DNS、CDN、WAF、LB 与 Gateway"],
+["13-kubernetes-internals-deep-dive","13","深潜：Informer、WorkQueue 与控制面 HA"],
+["14-network-packet-path-deep-dive","14","深潜：数据包逐跳、NAT、eBPF 与 Mesh"],
+["15-storage-deep-dive","15","深潜：CSI、Ceph CRUSH、备份与恢复"],
+["16-redis-deep-dive","16","深潜：Redis 缓存、锁与生产风险"],
+["17-kafka-deep-dive","17","深潜：Kafka ACK、ISR、语义与积压"],
+["18-resilience-transactions-deep-dive","18","深潜：可靠性模式与分布式事务"],
+["19-observability-advanced","19","高级：告警、Profiling 与可观测成本"],
+["20-delivery-advanced","20","高级：交付、供应链与渐进式发布"],
+["21-workloads-scheduling-resources","21","Workload、调度与资源治理"],
+["22-resilience-chaos-capacity","22","高可用、容量规划与 Chaos Engineering"],
+["23-security-advanced","23","安全深潜：KMS、Sandbox、SPIFFE"],
+["24-production-troubleshooting","24","生产排障全景 Runbook"]
 ];
 
 const nav=document.querySelector("#nav"),content=document.querySelector("#content"),crumb=document.querySelector("#breadcrumbs");
